@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FrasesDoDia</string>
+    <string name="content_description_text">Banner com a imagem escrita frases do dia </string>
+    <string name="text_button">Nova Frase</string>>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="botao_cadastro">#E8E25348</color>
+    <color name="botao_cadastro1">#E4D5564D</color>
+    <color name="corFundo">#99F0F8</color>
+    <color name="corTexto">#EA4848</color>
+    <color name="corTitulo">#4CAF50</color>
+    <color name="corStatusBar">#F56531</color>
+    <color name="corBotao">#D4CECE</color>
+    <color name="colorAccent">#F20808</color>
+
+</resources>
