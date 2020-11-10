@@ -1,10 +1,8 @@
  package com.example.classesemetodosnapratica;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 
-import com.example.classesemetodosnapratica.classes.Animal;
+import androidx.appcompat.app.AppCompatActivity;
 
  public class MainActivity extends AppCompatActivity {
 
@@ -13,9 +11,10 @@ import com.example.classesemetodosnapratica.classes.Animal;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-    Animal animal = new Animal();
-    System.out.println(animal);
+        //Pessoa pessoa = new Pessoa();
 
+//    Animal animal = new Animal();
+//    System.out.println(animal);
 
 //    Conta conta = new Conta();
 //    conta.setNumeroConta(123456);
