@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="buttonEnviar"
+    android:orientation="vertical"
+    android:padding="20dp"
+    app:layoutDescription="@xml/activity_main_scene"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:hint="Digite seu nome"
+        android:inputType="textPersonName" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite seu email" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/textViewCores"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cores" />
+
+    <CheckBox
+        android:id="@+id/checkBoxVerde"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Verde" />
+
+    <CheckBox
+        android:id="@+id/checkBoxAzul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Azul" />
+
+    <CheckBox
+        android:id="@+id/checkBoxVermelho"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vermelho" />
+
+    <TextView
+        android:id="@+id/textViewSexo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sexo" />
+
+<!--    Usar RadioGroup é melhor que usar o RadioButtomn sozinho porque com ele apenas uma opção
+        pode ser escolhida pelo usuário, sem ele, o usuário pode marcar mais de um RadioButton,
+        além de depois de marcado não dar pra desmarcar o mesmo -->
+    <RadioGroup
+        android:id="@+id/radioGroupSexo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioButtonMasculino"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Masculino" />
+
+        <RadioButton
+            android:id="@+id/radioButtonFeminino"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Feminino" />
+
+        <RadioButton
+            android:id="@+id/radioButtonNaoBinario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Não Binário" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonEnviar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="buttonEnviar"
+        android:text="Enviar"
+        app:backgroundTint="#B8B4B4" />
+
+    <TextView
+        android:id="@+id/textViewResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/buttonEnviar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="buttonLimpar"
+        android:text="Limpar"
+        app:backgroundTint="#B8B4B4" />
+
+</LinearLayout>
