@@ -1,2 +1,2 @@
 # android-studio-projects
-Projetos no Android Studio
+Projects in AndroidStudio for learning using Java, examples of use in alignment, activities, sqllite database, classes and methods, basic components, layout constraint, fragments, gridview, other layouts, listview, netflix copy app, passing data between activities, view recycler, registration system app, raffle app and game app. Feel free to copy, but remember not to paste, writing your own code is essential for learning and maybe not everything is the same, this means that something may break and you want to replace an object, a class, a method or just one variable, to evolve, change your will and create more things, the thing is to have fun.
